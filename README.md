@@ -1,17 +1,12 @@
 🎵 Music player app
-=========================
+--------------------------- 
 
 ## Music player, using React, Typescript and Styled Components.
 
-<p>A project to play musics.</p>
-<p>In this project the user can choose a song, filter by name, author or genre. The user can also change the
-volume and listen to random songs. The project is also 100% responsive.</p>
+<p>A project to play music.</p>
+<p>A musical project where users can select songs, filter them by title, artist, or genre, adjust the volume, and enjoy random tunes. This project boasts complete responsiveness as well.</p>
 
 
+--------------------------- 
 
----------------------------
-
-### How it works: 
-
-<img  style="border-radius: 5px" src="./screenshots/github/gif1.gif">
-<img  style="border-radius: 5px" src="./screenshots/github/gif2.gif">
+<img  style="border-radius: 5px" src="./screenshots/github/initial-page.png">
