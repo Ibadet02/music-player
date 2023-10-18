@@ -23,7 +23,7 @@ export const Musics = ({ img, name, author, audio, musicId, isFull, id, genre, g
             { isSearch ? 
                 search.toLowerCase() === name.toLowerCase() || search === author.toLowerCase() || search === genre.toLowerCase() ?
                 <div className='divGenre' onClick={() => setId(musicId)}>
-                    <img src={img} />
+                    <img src={img} alt='album' />
                     <h1>{name}</h1>
                     <h3>{author}</h3>
                     <audio src={audio} />
@@ -34,7 +34,7 @@ export const Musics = ({ img, name, author, audio, musicId, isFull, id, genre, g
                 genres !== '' ? 
                     genre === genres ? 
                         <div className='divGenre' onClick={() => setId(musicId)}>
-                            <img src={img} />
+                            <img src={img} alt='album' />
                             <h1>{name}</h1>
                             <h3>{author}</h3>
                             <audio src={audio} />
@@ -46,7 +46,7 @@ export const Musics = ({ img, name, author, audio, musicId, isFull, id, genre, g
                         musicId === id  ?
                         <div className='containerFull'>
                             <div className='divFull'>
-                                <img src={img} alt="" />
+                                <img src={img} alt="album" />
                                 <h1>{name}</h1>
                                 <h3>{author}</h3>
                             </div>
@@ -56,7 +56,7 @@ export const Musics = ({ img, name, author, audio, musicId, isFull, id, genre, g
                     :
                         
                         <div className='divAll' onClick={() => setId(musicId) }>
-                            <img src={img} />
+                            <img src={img} alt='album' />
                             <h1>{name}</h1>
                             <h3>{author}</h3>
                             <audio src={audio} />
